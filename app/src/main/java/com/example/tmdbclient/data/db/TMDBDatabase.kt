@@ -2,9 +2,9 @@ package com.example.tmdbclient.data.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.example.tmdbclient.data.dao.ArtistDao
-import com.example.tmdbclient.data.dao.MovieDao
-import com.example.tmdbclient.data.dao.TvShowDao
+import com.example.tmdbclient.data.db.dao.ArtistDao
+import com.example.tmdbclient.data.db.dao.MovieDao
+import com.example.tmdbclient.data.db.dao.TvShowDao
 import com.example.tmdbclient.data.model.Artist
 import com.example.tmdbclient.data.model.Movie
 import com.example.tmdbclient.data.model.TvShow
