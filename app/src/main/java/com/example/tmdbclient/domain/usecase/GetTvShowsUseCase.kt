@@ -1,4 +1,4 @@
-package com.example.tmdbclient.domain.use_cases
+package com.example.tmdbclient.domain.usecase
 
 import com.example.tmdbclient.data.model.TvShow
 import com.example.tmdbclient.domain.repository.TvShowRepository
