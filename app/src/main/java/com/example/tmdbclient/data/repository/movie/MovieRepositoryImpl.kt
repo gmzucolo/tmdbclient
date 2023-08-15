@@ -45,7 +45,7 @@ class MovieRepositoryImpl(
         } catch (e: Exception) {
             Log.i("MyTag", e.message.toString())
         }
-        if (movieList.isNotEmpty()) {
+        if (movieList.size>0) {
             return movieList
         } else {
             movieList = getMoviesFromAPI()
@@ -61,7 +61,7 @@ class MovieRepositoryImpl(
         } catch (e: Exception) {
             Log.i("MyTag", e.message.toString())
         }
-        if (movieList.isNotEmpty()) {
+        if (movieList.size>0) {
             return movieList
         } else {
             movieList = getMoviesFromDB()
